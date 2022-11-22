@@ -35,16 +35,7 @@ async function getBookDetails(){
                 
                 const bookList = document.querySelector(".book-list")
                 bookList.innerHTML=""
-                
-
-
-    
-  
-
-
-    for(let i=0;i<books.length;i++){
-          
-        
+           for(let i=0;i<books.length;i++){
        let curl1 = books[i].characters[0]
        let curl2 = books[i].characters[1]
        let curl3 = books[i].characters[2]
