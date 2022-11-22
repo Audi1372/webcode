@@ -1,0 +1,64 @@
+
+  h1{
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    color:white
+    
+  }
+  .backgroundImage{
+   background-image: url('book.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   height: 100vh;
+  }
+  h3{
+    color:aqua;
+    font-size: 30px;
+    padding-top: 30px;
+    background-color: blueviolet;
+  } 
+  p{
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    color:white;
+    padding-top: 250px;
+    font-size: 20px;
+
+  }
+.user-container{
+   display: flex;
+   width: 430px;
+   background-color: aqua;
+   padding: 30px;
+   margin: 10px;
+   max-width: 430px;
+   gap: 10px;
+   border-radius: 20px;
+   box-shadow: 0px 5px 10px red;
+   transition: all 0.5s ease;
+    
+}
+
+
+.book-list{
+    background-color:  lightgreen;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-between;
+    align-items: center;
+    place-content: center;
+    justify-content: center;
+}
+
+h2{
+    color:blueviolet
+}
+button{
+    background-color:palevioletred;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
