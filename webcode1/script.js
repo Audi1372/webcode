@@ -146,7 +146,7 @@ async function getBookDetails(){
             <h4> Publisher: ${books[i].publisher}</h4>
             <h4>releasedDate : ${books[i].released}</h4>
             <h4>Charcter1 : ${character1.name}</h4>
-            <h4><Charcter2 : ${character2.name}</h4>
+            <h4>Charcter2 : ${character2.name}</h4>
             <h4>Charcter3 : ${character3.name}</h4>
             <h4>Charcter4 : ${character4.name}</h4>
            <h4>Charcter5 : ${character5.name}</h4>
